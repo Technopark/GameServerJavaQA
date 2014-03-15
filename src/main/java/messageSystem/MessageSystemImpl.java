@@ -53,4 +53,8 @@ public class MessageSystemImpl implements MessageSystem {
         return addressService;
     }
 
+    public Map<ConcurrentLinkedQueue<Address>, ConcurrentLinkedQueue<Msg>> getMessages() {
+        return messages;
+    }
+
 }

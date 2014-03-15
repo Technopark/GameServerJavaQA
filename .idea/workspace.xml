@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java" afterPath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/Address.java" afterPath="$PROJECT_DIR$/src/main/java/base/Address.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/messageSystem/MessageSystemImpl.java" afterPath="$PROJECT_DIR$/src/main/java/messageSystem/MessageSystemImpl.java" />
     </list>
     <ignored path="GeoPrj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +83,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AddressServiceImplTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/messageSystem/AddressServiceImplTest.java">
+      <file leaf-file-name="MessageSystemImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/messageSystem/MessageSystemImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="24" selection-start="182" selection-end="182" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="442">
-              <folding />
+            <state line="7" column="50" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+              <folding>
+                <element signature="e#1690#1691#0" expanded="true" />
+                <element signature="e#1721#1722#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageSystemImplTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/messageSystem/MessageSystemImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="20" selection-start="281" selection-end="281" vertical-scroll-proportion="0.46575344" vertical-offset="0" max-vertical-offset="442">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/base/Frontend.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/Msg.java" />
         <option value="$PROJECT_DIR$/src/main/java/databaseService/DatabaseServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/databaseService/Gamer.java" />
@@ -125,7 +139,6 @@
         <option value="$PROJECT_DIR$/src/main/java/gameMechanics/MsgStartOrStopGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameMechanics/MsgVictory.java" />
         <option value="$PROJECT_DIR$/src/main/java/messageSystem/AddressServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/messageSystem/MessageSystemImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/messageSystem/MsgToAccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/messageSystem/MsgToFrontend.java" />
         <option value="$PROJECT_DIR$/src/main/java/resourceSystem/MyResourceFactory.java" />
@@ -160,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/UtilsTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/messageSystem/AddressServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/messageSystem/MessageSystemImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/messageSystem/MessageSystemImpl.java" />
       </list>
     </option>
   </component>
@@ -790,12 +805,12 @@
       <workItem from="1394404999898" duration="164000" />
       <workItem from="1394405166602" duration="6425000" />
       <workItem from="1394875777899" duration="527000" />
-      <workItem from="1394877083678" duration="4540000" />
+      <workItem from="1394877083678" duration="4987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40007000" />
+    <option name="totallyTimeSpent" value="40454000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -880,11 +895,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2882" />
@@ -1033,13 +1043,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/messageSystem/MessageSystemImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="42" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1210">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,6 +1209,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="24" selection-start="182" selection-end="182" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="442">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/messageSystem/MessageSystemImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="50" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1003">
+          <folding>
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/messageSystem/MessageSystemImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="281" selection-end="281" vertical-scroll-proportion="0.46575344" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
