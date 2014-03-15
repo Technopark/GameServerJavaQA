@@ -89,7 +89,7 @@
       <file leaf-file-name="ResourceFactoryTests.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/resourceSystem/ResourceFactoryTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="36" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.68" vertical-offset="170" max-vertical-offset="629">
+            <state line="24" column="83" selection-start="798" selection-end="798" vertical-scroll-proportion="0.96" vertical-offset="0" max-vertical-offset="1003">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -796,12 +796,12 @@
       <workItem from="1394404999898" duration="164000" />
       <workItem from="1394405166602" duration="6425000" />
       <workItem from="1394875777899" duration="527000" />
-      <workItem from="1394877083678" duration="8545000" />
+      <workItem from="1394877083678" duration="9146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44012000" />
+    <option name="totallyTimeSpent" value="44613000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1242,7 +1242,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resourceSystem/ResourceFactoryTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="36" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.68" vertical-offset="170" max-vertical-offset="629">
+        <state line="24" column="83" selection-start="798" selection-end="798" vertical-scroll-proportion="0.96" vertical-offset="0" max-vertical-offset="1003">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
