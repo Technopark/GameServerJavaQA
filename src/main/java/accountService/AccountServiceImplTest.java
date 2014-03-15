@@ -8,8 +8,8 @@ import org.junit.Test;
 
 public class AccountServiceImplTest {
 
-    MessageSystem ms;
-    AccountServiceImpl accountService;
+    private MessageSystem ms;
+    private AccountServiceImpl accountService;
 
     @Before
     public void testBefore() {
@@ -18,9 +18,17 @@ public class AccountServiceImplTest {
     }
 
     @Test
-    public void testAccountServiceImpl() {
+    public void testAccountServiceImplMs() {
         Assert.assertEquals(accountService.getMessageSystem(), ms);
+    }
+
+    @Test
+    public void testAccountServiceImplResource() {
         Assert.assertNull(accountService.getResource());
+    }
+
+    @Test
+    public void testAccountServiceImplAddress() {
         Assert.assertNotNull(accountService.getAddress());
     }
 
