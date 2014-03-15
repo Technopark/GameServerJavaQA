@@ -54,6 +54,10 @@ public class ResourceFactory {
         }
     }
 
+    public Resource getResourcesFromFile(File xmlFile) throws ParserConfigurationException, SAXException, IOException, InstantiationException, IllegalAccessException, ClassNotFoundException, DOMException, NoSuchFieldException, SecurityException, IllegalArgumentException {
+        return this.getResourceFromFile(xmlFile);
+    }
+
     private Resource getResourceFromFile(File xmlFile) throws ParserConfigurationException, SAXException, IOException, InstantiationException, IllegalAccessException, ClassNotFoundException, DOMException, NoSuchFieldException, SecurityException, IllegalArgumentException {
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = dbFactory.newDocumentBuilder();
