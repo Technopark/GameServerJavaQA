@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bee761b9-27d1-4565-821c-eceef26464c8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java" afterPath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/Address.java" afterPath="$PROJECT_DIR$/src/main/java/base/Address.java" />
     </list>
     <ignored path="GeoPrj.iws" />
@@ -80,19 +81,7 @@
     <favorites_list name="GeoPrj" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UtilsTests.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/UtilsTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="57" selection-start="5551" selection-end="5551" vertical-scroll-proportion="0.6" vertical-offset="1700" max-vertical-offset="2125">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -155,12 +144,12 @@
         <option value="$PROJECT_DIR$/src/main/java/frontend/UserSession.java" />
         <option value="$PROJECT_DIR$/src/main/java/frontend/FrontendTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/BaseTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/ReflectionHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/UtilsTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -258,32 +247,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameServerJavaQA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameServerJavaQA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -330,7 +293,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.utils in GameServerJavaQA">
+  <component name="RunManager" selected="JUnit.accountService in GameServerJavaQA">
     <configuration default="false" name="accountService in GameServerJavaQA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -742,11 +705,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.utils in GameServerJavaQA" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.resourceSystem in GameServerJavaQA" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UtilsTests" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.base in GameServerJavaQA" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.accountService in GameServerJavaQA" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.accountService in GameServerJavaQA" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.utils in GameServerJavaQA" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.resourceSystem in GameServerJavaQA" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UtilsTests" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.base in GameServerJavaQA" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -791,12 +754,12 @@
       <workItem from="1394404999898" duration="164000" />
       <workItem from="1394405166602" duration="6425000" />
       <workItem from="1394875777899" duration="527000" />
-      <workItem from="1394877083678" duration="2742000" />
+      <workItem from="1394877083678" duration="3674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38209000" />
+    <option name="totallyTimeSpent" value="39141000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -820,7 +783,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -841,7 +804,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.856546" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23499268" sideWeight="0.72913116" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23499268" sideWeight="0.72913116" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27044025" sideWeight="0.7979502" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="2925" y="109" width="571" height="881" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1040,7 +1003,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="624" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1914">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1108,15 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="21" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.61187214" vertical-offset="973" max-vertical-offset="1411">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="1" selection-start="906" selection-end="906" vertical-scroll-proportion="0.9223744" vertical-offset="21" max-vertical-offset="544">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,6 +1152,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/UtilsTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="115" column="57" selection-start="5551" selection-end="5551" vertical-scroll-proportion="0.6" vertical-offset="1700" max-vertical-offset="2125">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="33" selection-start="701" selection-end="701" vertical-scroll-proportion="0.9223744" vertical-offset="55" max-vertical-offset="646">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
