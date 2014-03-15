@@ -52,6 +52,18 @@ public class AccountServiceImpl implements AccountService {
         return ms;
     }
 
+    public Resource getResource() {
+        return resource;
+    }
+
+    public Map<String, Integer> getUserId() {
+        return userId;
+    }
+
+    public AtomicInteger getUserIdGenerator() {
+        return userIdGenerator;
+    }
+
     @Override
     public void saveResult(int id, int countClicks) {
             // TODO Auto-generated method stub
