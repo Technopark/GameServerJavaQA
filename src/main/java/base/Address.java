@@ -23,4 +23,8 @@ public class Address {
     public void setThreadUsed(boolean threadUsed) {
         this.threadUsed.set(threadUsed);
     }
+
+    public AtomicInteger getSubscriberIdGenerator() {
+        return subscriberIdGenerator;
+    }
 }

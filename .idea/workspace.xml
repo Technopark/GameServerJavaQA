@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bee761b9-27d1-4565-821c-eceef26464c8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/Address.java" afterPath="$PROJECT_DIR$/src/main/java/base/Address.java" />
     </list>
     <ignored path="GeoPrj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,28 +81,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccountServiceImplTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java">
+      <file leaf-file-name="BaseTests.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="1" selection-start="906" selection-end="906" vertical-scroll-proportion="0.9223744" vertical-offset="21" max-vertical-offset="544">
+            <state line="11" column="46" selection-start="249" selection-end="249" vertical-scroll-proportion="0.42694065" vertical-offset="0" max-vertical-offset="527">
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="31" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1122">
-              <folding>
-                <element signature="e#1369#1370#0" expanded="true" />
-                <element signature="e#1400#1401#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
-                <element signature="e#1476#1477#0" expanded="true" />
-                <element signature="e#1525#1526#0" expanded="true" />
-                <element signature="e#1563#1564#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/test/ResourceSystemTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/Abonent.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/AddressService.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/Frontend.java" />
@@ -156,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/TimeHelper.java" />
         <option value="$PROJECT_DIR$/starts.sh" />
         <option value="$PROJECT_DIR$/src/main/java/utils/ReflectionHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/databaseService/DatabaseServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/databaseService/DatabaseServiceImplTest.java" />
@@ -176,6 +159,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/BaseTests.java" />
       </list>
     </option>
   </component>
@@ -295,7 +280,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="accountService" />
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,30 +330,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.accountService in GameServerJavaQA">
-    <configuration default="false" name="All in GameServerJavaQA (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="GameServerJavaQA" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Cover" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.base in GameServerJavaQA">
     <configuration default="false" name="frontend in GameServerJavaQA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -464,6 +426,34 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="accountService" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="base in GameServerJavaQA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="GameServerJavaQA" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="base" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
@@ -744,19 +734,19 @@
       <item index="0" class="java.lang.String" itemvalue="JUnit.DBServiceTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.DBServiceTest.createMessanger" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.DBServiceTest.insertFriends" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in GameServerJavaQA (4)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.frontend in GameServerJavaQA" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.gameMechanics in GameServerJavaQA" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.databaseService in GameServerJavaQA" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.accountService in GameServerJavaQA" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.frontend in GameServerJavaQA" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.gameMechanics in GameServerJavaQA" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.databaseService in GameServerJavaQA" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.accountService in GameServerJavaQA" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.base in GameServerJavaQA" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.accountService in GameServerJavaQA" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.frontend in GameServerJavaQA" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.databaseService in GameServerJavaQA" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.gameMechanics in GameServerJavaQA" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in GameServerJavaQA (4)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.base in GameServerJavaQA" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.accountService in GameServerJavaQA" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.frontend in GameServerJavaQA" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.databaseService in GameServerJavaQA" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.gameMechanics in GameServerJavaQA" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -801,12 +791,12 @@
       <workItem from="1394404999898" duration="164000" />
       <workItem from="1394405166602" duration="6425000" />
       <workItem from="1394875777899" duration="527000" />
-      <workItem from="1394877083678" duration="751000" />
+      <workItem from="1394877083678" duration="1147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36218000" />
+    <option name="totallyTimeSpent" value="36614000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -891,11 +881,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2904" />
@@ -944,11 +929,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/gameMechanics/MsgSaveResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="19" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/Msg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/TimeHelper.java">
@@ -1140,16 +1120,11 @@
         <state line="11" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1360" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="0.38848922" vertical-offset="127" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frontend/FrontendImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="27" selection-start="4669" selection-end="4669" vertical-scroll-proportion="3.6" vertical-offset="0" max-vertical-offset="3927" />
+        <state line="111" column="27" selection-start="4669" selection-end="4669" vertical-scroll-proportion="3.6" vertical-offset="0" max-vertical-offset="3927">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frontend/FrontendTest.java">
@@ -1164,23 +1139,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="31" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1122">
+        <state line="25" column="1" selection-start="906" selection-end="906" vertical-scroll-proportion="0.9223744" vertical-offset="21" max-vertical-offset="544">
           <folding>
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="1" selection-start="906" selection-end="906" vertical-scroll-proportion="0.9223744" vertical-offset="21" max-vertical-offset="544">
+        <state line="63" column="31" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.4178082" vertical-offset="684" max-vertical-offset="1122">
+          <folding>
+            <element signature="e#1369#1370#0" expanded="false" />
+            <element signature="e#1400#1401#0" expanded="false" />
+            <element signature="e#1447#1448#0" expanded="false" />
+            <element signature="e#1476#1477#0" expanded="false" />
+            <element signature="e#1525#1526#0" expanded="false" />
+            <element signature="e#1563#1564#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="595">
+          <folding>
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="15" selection-start="250" selection-end="250" vertical-scroll-proportion="0.42694065" vertical-offset="0" max-vertical-offset="438">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="46" selection-start="249" selection-end="249" vertical-scroll-proportion="0.42694065" vertical-offset="0" max-vertical-offset="527">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
