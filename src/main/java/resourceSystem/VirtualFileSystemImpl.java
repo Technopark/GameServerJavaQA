@@ -53,8 +53,6 @@ public class VirtualFileSystemImpl implements VirtualFileSystem {
 
         public void remove() {
         }
-
-
     }
 
     public Iterator<String> getIterator(String startDir) {
@@ -63,5 +61,9 @@ public class VirtualFileSystemImpl implements VirtualFileSystem {
 
     public static VirtualFileSystemImpl getVirtualFileSystemImpl() {
         return virtualFileSystemImpl;
+    }
+
+    public  String getRoot() {
+        return root;
     }
 }

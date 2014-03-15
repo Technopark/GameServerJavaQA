@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class ResourceFactoryTests {
 
-    ResourceFactory resourceFactory;
+    private ResourceFactory resourceFactory;
 
     @Before
     public void testBefore() throws ParserConfigurationException, SAXException, IOException, InstantiationException, IllegalAccessException, ClassNotFoundException, DOMException, NoSuchFieldException, SecurityException, IllegalArgumentException {
