@@ -60,4 +60,8 @@ public class VirtualFileSystemImpl implements VirtualFileSystem {
     public Iterator<String> getIterator(String startDir) {
         return new FileIterator(startDir);
     }
+
+    public static VirtualFileSystemImpl getVirtualFileSystemImpl() {
+        return virtualFileSystemImpl;
+    }
 }

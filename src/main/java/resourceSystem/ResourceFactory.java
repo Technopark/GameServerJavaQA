@@ -85,4 +85,16 @@ public class ResourceFactory {
             visit(nl.item(i), level + 1);
         }
     }
+
+    public VirtualFileSystem getVfs() {
+        return vfs;
+    }
+
+    public Map<String, Resource> getResources() {
+        return resources;
+    }
+
+    public static ResourceFactory getResourceFactory() {
+        return resourceFactory;
+    }
 }
