@@ -82,19 +82,7 @@
     <favorites_list name="GeoPrj" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DatabaseResourceTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/resourceSystem/DatabaseResourceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="1" selection-start="568" selection-end="568" vertical-scroll-proportion="0.7374429" vertical-offset="0" max-vertical-offset="442">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -112,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/databaseService/Gamer.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/PageGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/MessageSystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/frontend/MsgGetUserId.java" />
@@ -163,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/main/java/messageSystem/MessageSystemImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/resourceSystem/DatabaseResourseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/resourceSystem/DatabaseResourceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resourceSystem/GameSessionResourceTest.java" />
       </list>
     </option>
   </component>
@@ -793,12 +781,12 @@
       <workItem from="1394404999898" duration="164000" />
       <workItem from="1394405166602" duration="6425000" />
       <workItem from="1394875777899" duration="527000" />
-      <workItem from="1394877083678" duration="5376000" />
+      <workItem from="1394877083678" duration="5670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40843000" />
+    <option name="totallyTimeSpent" value="41137000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -822,7 +810,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -883,11 +871,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/GameResource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resourceSystem/Resource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="17" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220" />
@@ -1141,13 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resourceSystem/GameSessionResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="57" selection-start="191" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/accountService/AccountServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="33" selection-start="701" selection-end="701" vertical-scroll-proportion="0.9223744" vertical-offset="55" max-vertical-offset="646">
@@ -1226,6 +1202,22 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resourceSystem/GameSessionResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="1" selection-start="575" selection-end="575" vertical-scroll-proportion="0.65981734" vertical-offset="0" max-vertical-offset="438">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resourceSystem/GameSessionResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="57" selection-start="191" selection-end="202" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="476">
+          <folding />
         </state>
       </provider>
     </entry>
